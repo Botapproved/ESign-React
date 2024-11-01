@@ -19,12 +19,13 @@ function App() {
         <Route path="/pdf-signer" element={<PDFSigner />} />
         <Route path="/pdf-template-creator" element={<PDFTemplateCreator />} />
         <Route path="/pdf-user/:id" element={<PDFUserWrapper />} />
-        <Route path="/" element={<DocumentSelector />} />
-        <Route path="/info" element={<Frontpage/>} />
+        <Route path="/" element={<Frontpage />} />
+        <Route path="/info" element={<DocumentSelector/>} />
         <Route path="/sign/:templateId/:accessToken" element={<PDFUserWrapper />} />
       </Routes>
+      <Footer/>
     </Router>
-    <Footer/>
+   
     </>
     
   );

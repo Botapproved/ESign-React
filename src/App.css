@@ -1,0 +1,13 @@
+.background-gif {
+    background-image: url('./3J.gif'); /* Your GIF path */
+    background-size: 10%; /* Cover the entire element */
+    background-position: bottom; /* Align it to the center bottom */
+   /* Prevent the background from repeating */
+   
+    bottom: 0; /* Align it to the bottom */
+    left: 0; /* Align it to the left */
+    right: 0; /* Ensure it stretches to the right */
+    height: 30%; /* Make it fill the height of its parent */
+  width: 100%; /* Make it fill the width of its parent */
+  
+}

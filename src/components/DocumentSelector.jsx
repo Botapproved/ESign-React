@@ -86,7 +86,7 @@ const DocumentSelector = () => {
                     key={doc.id}
                     className={`flex items-start p-4 border-b last:border-b-0 hover:bg-gray-50 cursor-pointer ${
                       selectedDoc === doc.id ? 'bg-blue-50' : ''
-                    }`} // Fixed className syntax
+                    }`} 
                   >
                     <input
                       type="radio"
@@ -139,5 +139,7 @@ const DocumentSelector = () => {
     </div>
   );
 };
+
+
 
 export default DocumentSelector;
